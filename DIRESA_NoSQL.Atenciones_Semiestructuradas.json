@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "6aafe4540d357e2a50c44cb9"
+  },
+  "id_registro": 1001,
+  "dni_paciente": "67714093",
+  "edad": 37,
+  "provincia": "Trujillo",
+  "especialidad": "Nutrición",
+  "fecha_atencion": {
+    "$date": "2024-01-22T10:00:00.000Z"
+  },
+  "evaluacion_antropometrica": {
+    "peso_kg": 95,
+    "talla_m": 1.62,
+    "imc": 36.2,
+    "diagnostico": "Obesidad Mórbida"
+  },
+  "observaciones": "Paciente derivado a programa de control de riesgo metabólico."
+},
+{
+  "_id": {
+    "$oid": "6aafe4540d357e2a50c44cba"
+  },
+  "id_registro": 1003,
+  "dni_paciente": "42158963",
+  "edad": 28,
+  "provincia": "Ascope",
+  "especialidad": "Nutrición",
+  "fecha_atencion": {
+    "$date": "2024-02-15T09:30:00.000Z"
+  },
+  "evaluacion_antropometrica": {
+    "peso_kg": 72,
+    "talla_m": 1.65,
+    "imc": 26.4,
+    "diagnostico": "Sobrepeso"
+  },
+  "tratamiento_prescrito": [
+    "Plan alimenticio normocalórico",
+    "Incremento de actividad física"
+  ],
+  "requiere_seguimiento": true
+}]
